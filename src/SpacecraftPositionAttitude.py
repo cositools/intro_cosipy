@@ -202,7 +202,7 @@ class SourceSpacecraft(object):
         if response != None:
             self.response_file = response
 
-        if dwell_map != None:
+        if dwell_map is not None:
             pass # will read the saved dwell_map
         
         if dts != None:
